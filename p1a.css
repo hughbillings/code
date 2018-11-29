@@ -1,0 +1,86 @@
+#cell:first-child
+{
+	text-align: left;
+}
+
+
+.shading
+{
+	background-color: #eeeff2;
+}
+
+.noshading
+{
+	background-color: #dfe1e7;
+}
+
+th
+{
+	background-color: #687291;
+	color: white;
+}
+
+#Discipline
+{
+	text-align: left;
+	border:none;
+	padding-right: 20px;
+}
+
+#code
+{
+	padding: 0px 10px 0px 10px;
+}
+
+#coursetitle
+{
+	text-align: left;
+}
+
+#level
+{
+	padding: 0px 10px 0px 10px;
+}
+
+#Semester
+{
+	padding: 0px 10px 0px 10px;
+}
+
+#Credits
+{
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+
+#Author
+{
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+
+#checker
+{
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.center 
+{
+	text-align: center;
+}
+
+.left
+{
+	text-align: left;
+}
+
+
+tfoot{
+	visibility: hidden;
+}
+
+
+
+
+

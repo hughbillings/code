@@ -1,0 +1,45 @@
+body
+{
+	font-family: Verdana;
+	font-size: 1.1em;
+}
+
+label
+{
+	display: inline-block;
+	font-weight: 600;
+}
+
+.format
+{
+	margin: 15px 0;
+}
+
+.format > input 
+{
+	display: block;
+	width: 80%
+	font-size:15px;
+	height: 30px;
+	padding: 6px 12px;
+}
+
+#submitbutton
+{
+	margin: 10px 0;
+	display: inline-block;
+	text-align: center;
+	border-radius: 3px;
+	border: 2px solid transparent;
+	background-color: #E8A87C;
+}
+
+input.redbkg
+{
+	background-color: red;
+}
+
+input.greenbkg
+{
+	border:2px solid green;
+}

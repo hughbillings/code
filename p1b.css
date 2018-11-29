@@ -1,0 +1,73 @@
+#Discipline
+{
+	text-align: left;
+	border:none;
+	padding-right: 20px;
+}
+
+#code
+{
+	padding: 0px 10px 0px 10px;
+}
+
+#coursetitle
+{
+	text-align: left;
+}
+
+#level
+{
+	padding: 0px 10px 0px 10px;
+}
+
+#Semester
+{
+	padding: 0px 10px 0px 10px;
+}
+
+.container
+{
+	border: 10px solid #d0d0ff;
+	padding: 10px 20px 10px 20px;
+	width:54%;
+
+}
+#Credits
+{
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+
+#Author
+{
+	text-align: left;
+	
+}
+
+#checker
+{
+	table-layout: fixed;
+
+
+	
+}
+
+.center 
+{
+	text-align: center;
+	}
+
+.left
+{
+	text-align: left;
+}
+
+.container 
+{
+
+}
+
+.foot
+{
+	border-top: 2px solid black;
+}

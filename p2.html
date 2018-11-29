@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title> Course Creation Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="p2.css">
+	<script type="text/javascript" src="p2.js"></script>
+</head>
+<body>
+
+	<form id="courseform">
+
+		<div class="format">
+			<label for="coursecode"> Course Code:</label>
+			<input type="text" id="coursecode" name="coursecode">
+		</div>
+
+		<div class="format">
+			<label for="coursetitle"> Course Title:</label>
+			<input type="text" id="coursetitle" name="coursetitle">
+		</div>
+
+		<div class="format">
+			<label for="coursediscipline"> Course Discipline:</label>
+			<input type="text" name="coursediscipline" id="coursediscipline">
+		</div>
+
+		<div class="format">
+			<label for="level"> Level:</label>
+			<input type="text" name="level" id="level">
+		</div>
+
+		<div class="format">
+			<label for="credits">Credits: </label>
+			<input type="text" id="credits" name="credits">
+		</div>
+
+		<div class="format">
+			<label for="semesteroffered">Semester Offered: </label>
+			<input type="text" name="semesteroffered" id="semesteroffered">	
+		</div>
+
+		<div class="selectformat">
+			<select name="lecturers" id="lecturers">
+				<option value="" selected>Choose here</option>
+				<option value="1">Sara Lambert</option>
+				<option value="2">Brad Williams</option>
+				<option value="3">Rosalyn Brown</option>
+				<option value="4">Emil Powell</option>
+				<option value="5">Rene Picard</option>
+				<option value="6">Larry Fields</option>
+			</select>	
+		</div>
+		<input type="hidden" name="hiddenvalue" value="">
+		
+		<input type="submit" id="submitbutton" value="Submit" name="sbtn">
+	</form>
+
+</body>
+</html>
