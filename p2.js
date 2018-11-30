@@ -36,7 +36,7 @@ window.onload = function ()
 		{
 			validationFailed = true;
 			displayError(coursetitle);
-		}
+		} else { coursetitle.classList.add("greenbkg")};
 
 		if(isEmpty(coursediscipline.value.trim()))
 		{
@@ -113,9 +113,10 @@ window.onload = function ()
 		function coursecodevalid(x)
 		{
 				
-			 if(x.length === 4)
+			 if(x.length === 4 && /^[0-9]*$/.test(x))
 			 {
-			 	return /^[0-9]*$/.test(x);
+				coursecode.classList.add("greenbkg");
+			 	return true;
 			 } else {
 			 	return false;
 			 }
@@ -123,12 +124,13 @@ window.onload = function ()
 
 		function coursedisciplinevalid(x)
 		{
-			var validity = true;
+			
 
 			
-			if(x.length===4)
+			if(x.length===4 && /^[A-Z]*$/.test(x) )
 			{
-				return /^[A-Z]*$/.test(x);
+				coursediscipline.classList.add("greenbkg");
+				return true ;
 			} else 
 			{
 				return false;
@@ -137,9 +139,10 @@ window.onload = function ()
 
 		function levelvalid(x)
 		{
-			if(x.length==1)
+			if(x.length==1 && /^[1-3]?$/.test(x))
 			{
-				return /^[1-3]?$/.test(x);
+				level.classList.add("greenbkg");
+				return true;
 			} else 
 			{
 				return false;
@@ -149,9 +152,10 @@ window.onload = function ()
 		function creditvalid(x)
 		{
 
-			if(x.length==1)
+			if(x.length==1 && /^[1-8]?$/.test(x))
 			{
-				return /^[1-8]?$/.test(x);
+				credit.classList.add("greenbkg");
+				return true;
 			} else
 			{
 				return false;
@@ -161,9 +165,10 @@ window.onload = function ()
 
 		function semesterofferedvalid(x)
 		{
-			if(x.length==1)
+			if(x.length==1 && /^[1-3]?$/.test(x))
 			{
-				return /^[1-3]?$/.test(x);
+				semesteroffered.classList.add("greenbkg");
+				return true ;
 			} else 
 			{
 				return false;
